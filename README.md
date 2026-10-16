@@ -1,14 +1,13 @@
 # Shopverse Fintech Power BI Dashboard
-
 A comprehensive fintech analytics project built using Microsoft Power BI to analyze financial performance, transaction trends, fraud patterns, customer behavior, merchant performance, and operational efficiency. The project combines interactive dashboards with strategic business analysis through SWOT and Fishbone Root Cause Analysis.
 
-📥 Project Resources
-
+## 📥 Project Resources
 Download the complete project files, including the dataset, Power BI dashboard, and documentation:
 
 "Shopverse Fintech Dashboard — Kaggle Dataset" (https://www.kaggle.com/datasets/deveshdubey18/shopverse-fintech-powerbi-dashboard)
 
-📊 Project Overview
+
+## 📊 Project Overview
 
 Shopverse Fintech is a fintech analytics case study designed to demonstrate how business intelligence can transform transaction-level data into actionable business insights.
 
@@ -16,7 +15,7 @@ The dashboard provides an overview of financial performance, revenue and profit 
 
 In addition to quantitative analysis, the project includes a SWOT Analysis to evaluate the business environment and a Fishbone Diagram to investigate potential causes of transaction failures and pending transactions.
 
-Project Objectives
+### Project Objectives
 
 - Monitor revenue, profit, active users, and transaction performance.
 - Analyze revenue and profit trends across months, quarters, and years.
@@ -27,13 +26,11 @@ Project Objectives
 - Evaluate growth strategies and identify potential operational bottlenecks.
 - Translate analytical findings into strategic business recommendations.
 
-🖥️ Dashboard Preview
-
+# 🖥️ Dashboard Preview
 The project includes interactive Power BI reports and supporting business analysis.
 
-1. Financial Performance & Transaction Analysis
-
-"Shopverse Fintech Financial Dashboard" (dashboard-overview.png)
+## 1. Financial Performance & Transaction Analysis
+<img width="1343" height="682" alt="image" src=".github/assets/Screenshot 2026-10-14 175739.png" />
 
 The main dashboard consolidates financial KPIs, revenue and profit trends, transaction outcomes, merchant performance, and investor contributions.
 
@@ -57,9 +54,8 @@ Dashboard components:
 - Revenue and profit comparison by merchant category.
 - Profit distribution by gender and fraud type.
 
-2. Customer, Fraud & Operational Analysis
-
-"Shopverse Fintech Analytics Dashboard" (customer-fraud-dashboard.png)
+## 2. Customer, Fraud & Operational Analysis
+<img width="1343" height="682" alt="image" src=".github/assets/Screenshot 2026-10-14 175801.png" />
 
 This report explores customer segmentation, historical fraud counts, growth strategy performance, and transaction volume over time.
 
@@ -73,8 +69,7 @@ Key visualizations:
 These visualizations help identify changes in fraud activity, compare strategic initiatives, and understand the distribution of financial performance across customer groups.
 
 3. SWOT Analysis
-
-"Shopverse Fintech SWOT Analysis" (swot-analysis.png)
+<img width="1343" height="682" alt="image" src=".github/assets/Screenshot 2026-10-14 175819.png" />
 
 The SWOT analysis evaluates the business from four strategic perspectives.
 
@@ -94,9 +89,8 @@ AI/ML-based risk assessment and personalization.| Economic downturns and changin
 
 The SWOT analysis provides a framework for evaluating internal capabilities and external market conditions when planning future business improvements.
 
-4. Root Cause Analysis — Fishbone Diagram
-
-"Shopverse Fintech Fishbone Root Cause Analysis" (fishbone-analysis.png)
+## 4. Root Cause Analysis — Fishbone Diagram
+<img width="1343" height="682" alt="image" src=".github/assets/Screenshot 2026-10-14 175834.png" />
 
 The Fishbone Diagram investigates potential reasons behind the transaction outcomes displayed in the dashboard.
 
@@ -111,8 +105,7 @@ The analysis organizes potential contributing factors into six categories:
 
 The diagram helps structure further investigation into transaction failures and pending payments. These factors represent potential causes to validate using transaction logs, operational metrics, and stakeholder feedback rather than confirmed causal findings.
 
-📈 Key Business Insights
-
+## 📈 Key Business Insights
 Based on the supplied dashboard and supporting analyses:
 
 1. Financial performance: The dashboard reports 89.88M in total revenue and 35.92M in total profit, providing a high-level view of business performance.
@@ -125,14 +118,11 @@ Based on the supplied dashboard and supporting analyses:
 
 These observations describe the supplied visualizations. Further validation against the underlying dataset and measures is recommended before using them for operational or financial decisions.
 
-🗂️ Dataset Description
-
+## 🗂️ Dataset Description
 The dataset contains transaction-level, financial, customer, fraud, business growth, and operational information.
 
-Dataset Schema
-
 The 73 supplied columns are organized below by analytical domain.
-
+```
 Category| Columns
 Transaction Identification & Time| "transaction_id", "date", "year", "quarter", "month", "week", "day", "day_of_week", "is_weekend", "financial_year"
 Company Information| "company_name", "company_type", "hq_city", "country", "company_founded_year", "total_employees", "market_share_percent", "active_users"
@@ -145,10 +135,10 @@ Fraud & Disputes| "fraud_flag", "fraud_type", "risk_score", "fraud_detection_tim
 Investment & Growth| "funding_round", "funding_amount", "investor_type", "valuation", "growth_strategy", "expansion_region"
 Customer Engagement & Retention| "app_sessions", "session_duration_sec", "bounce_rate", "feature_used", "churn_flag", "retention_rate"
 System Performance & Reliability| "app_latency_ms", "api_response_time_ms", "success_rate", "failure_rate", "downtime_minutes", "server_region"
+```
+> Dataset access: "Download the dataset and Power BI dashboard from Kaggle" (https://www.kaggle.com/datasets/deveshdubey18/shopverse-fintech-powerbi-dashboard).
 
-Dataset access: "Download the dataset and Power BI dashboard from Kaggle" (https://www.kaggle.com/datasets/deveshdubey18/shopverse-fintech-powerbi-dashboard).
-
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - Microsoft Power BI — Interactive dashboards and business intelligence reporting.
 - Power Query — Data transformation and preparation.
@@ -156,7 +146,7 @@ Dataset access: "Download the dataset and Power BI dashboard from Kaggle" (https
 - Data Visualization — KPI cards, line and area charts, donut charts, bar charts, and decomposition-style analysis.
 - Business Analysis — SWOT analysis and Fishbone root cause analysis.
 
-🔍 Analytical Areas
+## 🔍 Analytical Areas
 
 The project covers the following business intelligence use cases:
 
@@ -169,7 +159,7 @@ The project covers the following business intelligence use cases:
 - Business growth strategy evaluation.
 - Root cause investigation and strategic planning.
 
-🚀 How to Access the Project
+## 🚀 How to Access the Project
 
 1. Open the "Shopverse Fintech Kaggle dataset page" (https://www.kaggle.com/datasets/deveshdubey18/shopverse-fintech-powerbi-dashboard).
 2. Download the available dataset, Power BI dashboard, and supporting documentation.
@@ -178,32 +168,22 @@ The project covers the following business intelligence use cases:
 5. If Power BI prompts for a data source, update the file path to match the location of the downloaded dataset.
 6. Refresh the data if required and explore the report pages and available filters.
 
-💡 Potential Future Improvements
 
-- Investigate transaction failures and pending payments using transaction-level logs.
-- Build a dedicated fraud-risk dashboard with fraud rates by transaction channel, merchant, and customer segment.
-- Add drill-through pages for company, merchant, and customer-level analysis.
-- Implement KPI targets and period-over-period comparisons.
-- Develop customer churn and retention monitoring.
-- Introduce alerts for abnormal transaction failure rates and system latency.
-- Validate KPI definitions, data quality, and aggregation logic.
-- Incorporate forecasting to estimate revenue, profit, and transaction volume.
-
-🎯 Project Outcome
+## 🎯 Project Outcome
 
 Shopverse Fintech demonstrates how Power BI dashboards and structured business analysis can be combined to examine financial performance, customer behavior, fraud patterns, transaction reliability, and growth opportunities.
 
 The project showcases practical business intelligence concepts, data visualization, KPI reporting, and root cause analysis in a fintech context.
 
-👨‍💻 Author
+#### 👨‍💻 Author
 
 Devesh Dubey
 
 Data Analytics | Power BI | SQL | Python
-
+```
 - Kaggle Dataset: "Shopverse Fintech Power BI Dashboard" (https://www.kaggle.com/datasets/deveshdubey18/shopverse-fintech-powerbi-dashboard)
 - GitHub: "deveshdubey18" (https://github.com/deveshdubey18)
-
+```
 ---
 
 If you find this project useful, consider starring the repository and sharing your feedback.
